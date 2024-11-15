@@ -103,6 +103,9 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+.login-section a {
+    color: #4caf50;
+}
 
 .login-section .google-login,
 .login-section .apple-login {

@@ -1,0 +1,69 @@
+body {
+    background-color: #eaf5e5;
+}
+
+.post img {
+    width: 600px;
+    height: 500px;
+}
+
+button {
+    background-color: #4caf50;
+}
+body {
+    background-color: #EAF7E8; 
+  }
+  .header {
+    background-color: #60D560;
+    padding: 10px;
+    border-bottom: 2px solid #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header input {
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+  }
+  .header .navbar {
+    margin: 0;
+  }
+  .main-content {
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+  }
+  .sidebar {
+    background-color: #92E290;
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .event {
+    background-color: #60D560;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .profile-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .post img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .btn-adopt {
+    background-color: #60D560;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
