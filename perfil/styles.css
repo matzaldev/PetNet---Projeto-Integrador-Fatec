@@ -1,14 +1,27 @@
 body {
     background-color: #EAF7E8; 
   }
+  .post img {
+    max-width: 600px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
   .header {
-    background-color: #60D560;
+    background-color: #4caf50;
     padding: 10px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #3a883d;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
   }
+  .header img {
+    max-height: 150px;  
+    width: auto; 
+    object-fit: contain; 
+  }
+
   .header input {
     width: 50%;
     padding: 8px;
@@ -96,3 +109,90 @@ body {
     color: gold;
     font-size: 1.5rem;
   }
+
+  .central-home {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .central-home i {
+    display: block;
+    line-height: 1;
+  }
+  
+  .central-home span {
+    margin-top: -5px; 
+    font-size: 0.85rem; 
+  }
+  
+  .search-bar {
+    width: 50%;
+  } 
+
+  .input-group-text {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .form-control {
+    text-align: center;
+    border-radius: 50px; 
+    border: 1px solid #ccc;
+  }
+  
+  .input-group .form-control::placeholder {
+    color: #999;
+  }
+  
+  .input-group .form-control {
+    border-radius: 50px;
+  }
+
+  .post-input-bar input {
+    width: 80%;
+  }
+  
+  .post-input-bar i {
+    cursor: pointer;
+  }
+  
+  .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post img.rounded-circle {
+    border: 2px solid #4caf50;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .post .btn-light {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post .btn-light:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .btn-adopt {
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-adopt:hover {
+    background-color: #45a049;
+  }
+  
+  textarea.form-control {
+    border-radius: 50px;
+    padding-left: 20px;
+  }
+
+  
