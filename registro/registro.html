@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,40 +10,37 @@
 </head>
 
 <body>
-
   <div class="container">
-    <h2>PetNet</h2>
-    <div class="form-section d-flex align-items-center justify-content-center">
-      <div class="form-wrapper">
-        
-        
+    <div class="form-wrapper">
+      <!-- Formulário 1 -->
+      <div class="form-section d-flex align-items-center justify-content-center">
         <div class="form-column">
           <h4 class="text-center">Para Tutores</h4>
           <div class="form-group">
             <label for="nomeTutor">Nome completo:</label>
-            <input type="text" id="nomeTutor" class="form-control" placeholder="Nome completo">
+            <input type="text" class="form-control" placeholder="Nome completo">
           </div>
           <div class="form-group">
             <label for="emailTutor">Insira um email:</label>
-            <input type="email" id="emailTutor" class="form-control" placeholder="Email ou nome de usuário">
+            <input type="email" class="form-control" placeholder="Email ou nome de usuário">
           </div>
           <div class="form-group">
             <label for="senhaTutor">Digite senha de no mínimo 6 caracteres:</label>
-            <input type="password" id="senhaTutor" class="form-control" placeholder="Digite uma senha...">
+            <input type="password" class="form-control" placeholder="Digite uma senha...">
           </div>
           <div class="form-group">
             <label for="confirmaSenhaTutor">Confirme a senha:</label>
-            <input type="password" id="confirmaSenhaTutor" class="form-control" placeholder="Confirme a senha...">
+            <input type="password" class="form-control" placeholder="Confirme a senha...">
           </div>
-          <button class="form-btn">Cadastrar-se</button>
+          <a href="/home/home.html"><button class="form-btn">Cadastrar-se</button></a>
         </div>
-        
-        
-        <div class="divider">
-          <img src="../assets/pet-image.png" alt="Imagem de cachorro e gato">
-        </div>
-        
-        
+      </div>
+      
+      <div>
+        <img src="/assets/pet-registro.png" alt="" width="100%">
+      </div>
+
+      <div class="form-section d-flex align-items-center justify-content-center">
         <div class="form-column">
           <h4 class="text-center">Para ONG's</h4>
           <div class="form-group">
@@ -61,14 +59,12 @@
             <label for="confirmaSenhaONG">Confirme a senha:</label>
             <input type="password" id="confirmaSenhaONG" class="form-control" placeholder="Confirme a senha...">
           </div>
-          <button class="form-btn">Cadastrar-se</button>
+          <a href="/home/home.html"><button class="form-btn">Cadastrar-se</button></a>
         </div>
-
       </div>
     </div>
   </div>
-
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

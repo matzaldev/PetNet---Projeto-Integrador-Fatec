@@ -71,6 +71,7 @@ body {
     width: 100%;
     border-radius: 10px;
   }
+  
   .btn-adopt {
     background-color: #60D560;
     color: white;
@@ -116,7 +117,6 @@ body {
   }
 
   .central-home {
-    position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -128,6 +128,8 @@ body {
   .central-home span {
     margin-top: -5px; 
     font-size: 0.85rem; 
+    flex-grow: 1; 
+    text-align: center; 
   }
   
   .search-bar {
